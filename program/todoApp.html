@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>To Eat</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+
+		<link rel="stylesheet" href="todo.css" />
+	</head>
+
+	<body>
+		<!-- <button onclick="toggle()">toggle</button> -->
+		<!-- <h1 class="text-center pt-5">Dish of the Day</h1> -->
+		<h1 class="fw-bolder text-center">To Eat</h1>
+		<section class="m-3 text-center" id="section">
+			<label for="food">Food Name :</label>
+			<input type="text" placeholder=" Food name" id="food" />
+			<label for="day"> Day :</label>
+			<select name="day" id="day">
+				<option value="Monday">Monday</option>
+				<option value="Tuesday">Tuesday</option>
+				<option value="Wednesday">Wednesday</option>
+				<option value="Thursday">Thursday</option>
+				<option value="Friday">Friday</option>
+				<option value="Saturday">Saturday</option>
+				<option value="Sunday">Sunday</option>
+			</select>
+			<label for="date">Date :</label>
+			<input
+				type="text"
+				id="date"
+				onblur="(this.type='text')"
+				onfocus="(this.type = 'date')"
+			/>
+			<button id="addBtn" class="">Add</button>
+			<button id="updateBtn" style="display: none">Update</button>
+			<button id="cancelBtn" style="display: none">Cancel</button>
+			<div class="search_filter">
+				<label for="search">Search :</label>
+				<input type="text" id="search" placeholder="Food Name" />
+				<label for="search">Filter :</label>
+				<input
+					type="text"
+					id="filter"
+					onblur="(this.type='text')"
+					onfocus="(this.type = 'date')"
+				/>
+				<input
+					class="clear_filters"
+					style="display: none"
+					type="reset"
+					value="Clear"
+				/>
+			</div>
+		</section>
+
+		<hr class="w-100" />
+		<h3 class="fw-bold text-center">List</h3>
+		<div class="the_div m-3" style="display: none">
+			<!-- <table class="">
+				<tr class="d-flex">
+					<th class="mx-4">Food</th>
+					<th class="mx-4">Day</th>
+					<th class="mx-4">Date</th>
+				</tr>
+			</table> -->
+			<ul id="list" class="text-center m-auto"></ul>
+		</div>
+
+		<script src="todo.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
