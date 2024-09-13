@@ -1,0 +1,556 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Catamaran", sans-serif;
+}
+
+input {
+	border: none;
+}
+
+input:focus {
+	outline: none;
+	border: none;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	background-color: #fff;
+}
+
+/* <!-- ===========================================Navbar==============================================--> */
+
+nav {
+	height: 90px;
+	width: 100%;
+}
+
+.nav-left {
+	height: 90px;
+	background: #1c1829 !important;
+}
+
+.nav-logo {
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-right: 0.6rem;
+	margin-bottom: 0.6rem;
+}
+
+.nav-left h3 {
+	font-weight: 700;
+	font-size: 2.2rem;
+	margin-bottom: 0rem;
+}
+
+.nav-left p {
+	font-size: 0.6rem;
+	margin-bottom: 0rem;
+}
+
+.nav-right {
+	height: 90px;
+}
+
+.nav-right h3 {
+	font-size: 1rem !important;
+	margin-bottom: 0rem;
+}
+
+.nav-right p {
+	color: #ffcd02;
+	font-size: 1rem;
+	margin-bottom: 0;
+}
+
+/* <!-- ========================Header section=========================== --> */
+
+header {
+	background: url(airco1\ 1.png);
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 7rem;
+}
+
+.header-left-top {
+	padding-left: 4rem;
+	padding-top: 7rem;
+}
+
+.header-left h1 {
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+
+header p {
+	font-weight: 700;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	line-height: 1.9rem;
+}
+
+li p {
+	margin-left: 0.5rem;
+	margin-bottom: 0rem;
+}
+
+.header-arrow {
+	height: 4rem;
+	position: absolute;
+}
+
+header input {
+	margin-top: 1.5rem;
+	margin-left: 4rem;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+header button {
+	background: #ffcd02;
+	border: none;
+	font-weight: 800;
+	padding: 0.5rem 2rem !important;
+	margin-left: 0.5rem;
+	border-radius: 2rem !important;
+	-webkit-border-radius: 2rem !important;
+	-moz-border-radius: 2rem !important;
+	-ms-border-radius: 2rem !important;
+	-o-border-radius: 2rem !important;
+}
+
+header button:active {
+	background-color: transparent;
+	border: #ffcd02 1px solid;
+}
+
+.header-right {
+	padding-top: 3.5rem;
+}
+
+.header-circle {
+	height: 8rem;
+}
+
+/* <!-- ========================card section=========================== --> */
+
+.card-section {
+	margin: 5rem;
+}
+
+.card {
+	margin-top: 5rem;
+	padding-top: 3rem;
+	background: #ffe785;
+	border: none;
+	height: 14rem;
+	width: 16rem;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-section h2 {
+	font-weight: 800;
+	font-size: 2.5rem;
+}
+.card-title {
+	font-weight: 800;
+}
+
+.card-icon {
+	height: 6rem;
+	width: 6rem;
+	z-index: 5;
+	margin-top: -6rem;
+}
+
+/* <!-- ========================Banner section=========================== --> */
+
+.banner-section {
+	background: #1c1829;
+	padding-bottom: 5rem;
+}
+
+.banner-section p {
+	font-weight: 700;
+}
+
+.banner-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner-left {
+	color: #fff;
+	padding-top: 9rem;
+	padding-right: 0;
+	padding-left: 3.5rem;
+}
+
+.banner-check-boxes img {
+	fill: #ffcd02;
+}
+
+.banner-p {
+	margin-top: 2rem;
+}
+
+.banner-right {
+	padding-top: 5rem;
+}
+
+.banner-images {
+	height: 100%;
+}
+
+.banner-right-pic-1 {
+	width: 270px;
+	height: 320px;
+	position: absolute;
+	z-index: 6;
+}
+
+.banner-right-pic-2 {
+	width: 200px;
+	position: relative;
+	z-index: 10;
+	margin-top: 5rem;
+	margin-left: 15rem;
+}
+
+.banner-right-pic-3 {
+	width: 270px;
+	height: 200px;
+	position: relative;
+	z-index: 10;
+	margin-top: 2rem;
+	margin-left: 11rem;
+}
+
+/* <!-- ====================================last banner section======================================= --> */
+
+.last-banner-section {
+	background: #ffe785;
+	padding: 5rem 0.75rem 5rem 0.75rem;
+}
+
+.last-banner-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.last-banner-section img {
+	height: 2rem;
+	margin-right: 10px;
+}
+
+.last-banner-content h2 {
+	font-weight: 800;
+}
+
+.last-banner-content input {
+	margin-top: 1.5rem;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.last-banner-content button {
+	background: #1c1829;
+	color: #fff;
+	font-weight: 800;
+	padding: 0.5rem 2rem !important;
+	margin-left: 0.5rem;
+	border-radius: 2rem !important;
+	-webkit-border-radius: 2rem !important;
+	-moz-border-radius: 2rem !important;
+	-ms-border-radius: 2rem !important;
+	-o-border-radius: 2rem !important;
+}
+
+.last-banner-content button:hover {
+	background: #1c1829;
+	color: #fff;
+}
+
+@media (max-width: 1200px) {
+	.nav-left h3 {
+		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 1100px) {
+	.header-left h1 {
+		font-size: 2rem;
+	}
+	.header-arrow {
+		height: 3.5rem;
+		position: absolute;
+		margin-left: 0rem;
+		margin-top: 1rem;
+	}
+
+	header input {
+		margin-top: 2.3rem;
+		margin-left: 3.3rem;
+	}
+}
+
+@media (max-width: 992.98px) {
+	nav {
+		height: auto;
+	}
+
+	.nav-left h3 {
+		font-size: 1.7rem;
+	}
+
+	.nav-right-content {
+		margin-top: 2rem;
+	}
+
+	.header-left {
+		padding-left: 0.75rem;
+		padding-top: 7rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.header-left-top {
+		padding-left: 0;
+		padding-top: 0;
+	}
+
+	.header-left h1 {
+		font-size: 2.5rem;
+		font-weight: 800;
+	}
+
+	header p {
+		font-weight: 700;
+	}
+
+	.check-boxes {
+		margin-bottom: 1rem;
+	}
+
+	li {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	li p {
+		margin-left: 0.5rem;
+		margin-bottom: 0rem;
+	}
+
+	.header-arrow {
+		display: none;
+	}
+
+	.header-left-bottom {
+		margin: 0;
+	}
+
+	header input {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.header-left button {
+		margin-left: 0;
+		margin-top: 0rem;
+		margin-left: 0.5rem;
+	}
+
+	.header-right {
+		display: none;
+	}
+
+	.banner-content {
+		flex-direction: column-reverse;
+	}
+
+	.banner-left {
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.banner-right {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.banner-right-pic-1 {
+		width: 270px;
+		height: 320px;
+	}
+
+	.banner-right-pic-2 {
+		width: 200px;
+		margin-top: 5rem;
+		margin-left: 16rem;
+	}
+
+	.banner-right-pic-3 {
+		width: 270px;
+		height: 200px;
+		margin-top: 2rem;
+		margin-left: 12rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.header-left h1 {
+		font-size: 1.7rem;
+	}
+
+	.header-left p {
+		font-size: 0.7rem;
+	}
+
+	li p {
+		margin-left: 0.3rem;
+	}
+
+	header img {
+		width: 1rem;
+		height: 1rem;
+	}
+
+	header input {
+		width: 9rem;
+		padding: 0.2rem;
+	}
+
+	header button {
+		font-weight: 700;
+		padding: 0.2rem 1.5rem !important;
+	}
+
+	.card-section h2 {
+		font-weight: 800;
+		font-size: 2rem;
+	}
+
+	.banner-right-pic-1 {
+		width: 13rem;
+		height: 17rem;
+		margin-top: 1rem;
+	}
+
+	.banner-right-pic-2 {
+		width: 10rem;
+		margin-top: 5rem;
+		margin-left: 11rem;
+	}
+
+	.banner-right-pic-3 {
+		width: 13rem;
+		height: 10rem;
+		margin-top: 2rem;
+		margin-left: 10rem;
+	}
+
+	.last-banner-content input {
+		width: 8rem;
+		padding: 0.2rem;
+	}
+
+	.last-banner-content button {
+		font-weight: 700;
+		padding: 0.2rem 1.5rem !important;
+	}
+}
+
+@media (max-width: 480px) {
+	.card {
+		width: auto;
+		height: 10rem;
+	}
+
+	.card-icon {
+		height: 5rem;
+		width: 5rem;
+		margin-top: -5.5rem;
+	}
+}
+
+@media (max-width: 450px) {
+	.banner-right-pic-1 {
+		width: 10rem;
+		height: 14rem;
+		margin-top: 1rem;
+	}
+
+	.banner-right-pic-2 {
+		width: 7rem;
+		margin-top: 5rem;
+		margin-left: 9rem;
+	}
+
+	.banner-right-pic-3 {
+		width: 10rem;
+		height: 7rem;
+		margin-top: 1.4rem;
+		margin-left: 7.7rem;
+	}
+}
+
+@media (max-width: 390px) {
+	.last-banner-input button {
+		margin-top: 0rem;
+	}
+}
+
+@media (max-width: 350px) {
+	.nav-logo {
+		width: 1rem;
+		height: 1rem;
+		margin-bottom: 0.2rem;
+	}
+
+	.nav-left h3 {
+		font-size: 1.2rem;
+	}
+
+	.check-boxes p {
+		font-size: 0.62rem;
+	}
+
+	.banner-section li p {
+		margin: 0.6rem 0 0.6rem 0.3rem;
+	}
+
+	.card {
+		width: auto;
+		height: auto;
+	}
+
+	.card-icon {
+		height: 4rem;
+		width: 4rem;
+		margin-top: -4.4rem;
+	}
+}
